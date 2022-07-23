@@ -12,13 +12,16 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(actual, 900);
     }
-    @Test
+
+    @
+            Test
     public void Purchase900Test() {
         CashbackHackService remain = new CashbackHackService();
         int actual = remain.remain(900);
 
         Assert.assertEquals(actual, 100);
     }
+
     @Test
     public void Purchase1100Test() {
         CashbackHackService remain = new CashbackHackService();
@@ -26,6 +29,7 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(actual, 900);
     }
+
     @Test
     public void Purchase1900Test() {
         CashbackHackService remain = new CashbackHackService();
@@ -33,6 +37,7 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(actual, 100);
     }
+
     @Test
     public void Purchase1000Test() {
         CashbackHackService remain = new CashbackHackService();
@@ -40,6 +45,7 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(actual, 0);
     }
+
     @Test
     public void Purchase2000Test() {
         CashbackHackService remain = new CashbackHackService();
